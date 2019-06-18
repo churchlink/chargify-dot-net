@@ -1,26 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net471;net45;net40</TargetFrameworks>
+    <!--<TargetFrameworks>netstandard2.0;net471;net45;net40</TargetFrameworks>-->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.2.7</Version>
+    <AssemblyVersion>1.2.7</AssemblyVersion>
+    <FileVersion>1.2.7</FileVersion>
+    <Product>Chargify.NET.Core</Product>  
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageId>chargify</PackageId>
+    <PackageId>Chargify.NET.Core</PackageId>
     <PackageProjectUrl>https://github.com/kfrancis/chargify-dot-net</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/kfrancis/chargify-dot-net/master/LICENSE</PackageLicenseUrl>
     <PackageTags>Chargify</PackageTags>
-    <Authors>KFrancis, DBall</Authors>
+    <Authors>KFrancis, DBall, NPetersen</Authors>
     <Company>Clinical Support Systems</Company>
-    <Product>Chargify.NET</Product>
     <Description>Chargify.NET is a comprehensive .NET API wrapper library for accessing Chargify.com, using XML or JSON to read/write.</Description>
-    <AssemblyVersion>1.2.5</AssemblyVersion>
-    <FileVersion>1.2.5</FileVersion>
-    <VersionPrefix>1.2.5</VersionPrefix>
     <!--<VersionSuffix>beta1</VersionSuffix>-->
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <Version>1.2.5</Version>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Data\ISO_3166-1_list_en.xml" />
